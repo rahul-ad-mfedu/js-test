@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="icon"><img src="./images/icon-star.svg" alt=""></div>
+  <h1>How did we do?</h1>
+
+ <p> Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+  <div class="buttons">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+
+<div class="submit">
+  <button>Submit</button>
+</div>
+
+</div>
+
+
+
+  <!-- Rating state end -->
+
+</body>
+</html>
+ 
+
+ <style>
+  body{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  .icon{
+    background-color: hsl(216, 12%, 54%);
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    img{
+      height: 30px;
+      width: 30px;
+    }
+  }
+  .container{
+    width: 350px;
+    background-color:hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .buttons{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 20px;
+    
+    button{
+      height: 30px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: hsl(216, 12%, 54%);
+      border: 0px;
+      color: rgb(255, 255, 255);
+    }
+  }
+  button{
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: rgb(255, 255, 255);
+  }
+h1{
+  color: rgb(253, 253, 253);
+}
+
+p{
+  color:hsl(220, 6%, 70%)
+}
+  
+ </style>
